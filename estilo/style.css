@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Sriracha', cursive;
+    --fonte3: 'Passion One', sans-serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: darkgrey;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte1);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--fonte3);
+    margin-top: 0px;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 1ms;
+}
+
+header > p > a:hover{
+    color: rgb(0, 0, 0);
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section{
+    margin: 0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 5vw;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: darkgrey;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem > p{
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.301), transparent);
+    box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.521);
+    padding-left: 10px;
+    text-shadow: 1px 1px 0px black
+}
+
+#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+#img02{
+    background-image: url(../imagens/background002.jpg);
+    
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 1ms;
+}
+
+footer > p > a:hover{
+   text-decoration: underline;
+}
